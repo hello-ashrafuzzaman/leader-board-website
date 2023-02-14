@@ -265,8 +265,9 @@ text-align: center;
 .container {
   width: auto;
   background-color: white;
-  padding: 15px;
+padding:90px;
   border-radius: 5px;
+    margin: 0px 0;
   margin-top: 36px;
 }
 nav {
@@ -286,7 +287,7 @@ display: none;
 text-align: center;
 }
 .top_players {
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 5px;
   row-gap: 20px;
 }
@@ -294,7 +295,7 @@ text-align: center;
 
 
 .top_blogs_Container {
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 .top_blog{
@@ -313,6 +314,22 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 20px;
+    /* padding: 155px; */
+
+}
+.course_container_main{
+    width: auto;
+    margin: 0 15px;
+    margin-top: 33px;
+    padding: auto;
+}
+.course{
+    height: auto;
+    width: 60%;
+    background-color: white;
+    border-radius: 8px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+    padding: 15px;
 }
 
 }
